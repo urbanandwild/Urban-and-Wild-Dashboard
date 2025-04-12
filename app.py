@@ -41,7 +41,7 @@ else:
     st.subheader("Care Tips & Tricks")
     with open("data/tips.md", "r") as f:
         st.markdown(f.read())
-if check_password():
+        
     # internal view
     # public view
 if check_password():
