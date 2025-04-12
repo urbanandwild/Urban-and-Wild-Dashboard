@@ -42,5 +42,5 @@ else:
     with open("data/tips.md", "r") as f:
         st.markdown(f.read())
     st.subheader("Amazon Favorites")
-    st.markdown("- [FoxFarm Happy Frog Soil](https://www.amazon.com/)
-- [Maxsea Fertilizer](https://www.amazon.com/)")
+    st.markdown("- [FoxFarm Happy Frog Soil](https://www.amazon.com/)")
+st.markdown("- [Maxsea Fertilizer](https://www.amazon.com/)")
