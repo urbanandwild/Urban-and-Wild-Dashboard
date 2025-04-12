@@ -41,6 +41,47 @@ else:
     st.subheader("Care Tips & Tricks")
     with open("data/tips.md", "r") as f:
         st.markdown(f.read())
-    st.subheader("Amazon Favorites")
-    st.markdown("- [FoxFarm Happy Frog Soil](https://www.amazon.com/)")
-st.markdown("- [Maxsea Fertilizer](https://www.amazon.com/)")
+   st.subheader("Amazon Favorites")
+
+st.markdown("### Substrate & Amendments")
+st.markdown("""
+- [Coco Coir](https://amzn.to/3Gli05C)
+- [Orchiata Classic](https://amzn.to/43LFQRZ)
+- [Orchiata Precision](https://amzn.to/4icXjWQ)
+- [Perlite 1/4"](https://amzn.to/3Gizuj3)
+- [Perlite 3/8"](https://amzn.to/428pJg3)
+- [Pumice](https://amzn.to/43QhaYA)
+- [Tree Fern](https://amzn.to/3YwTqoL)
+""")
+
+st.markdown("### Cups & Pots")
+st.markdown("""
+- [3\" Pot](https://amzn.to/4ibSEEw)
+- [Clear Seedling Cups](https://amzn.to/4lrj0VV)
+- [Clear Self-Watering Pots 5\", 6\", 7\"](https://amzn.to/3RQiPpy)
+- [Deli Containers](https://amzn.to/42HMisa)
+- [Seed Tray with Dome](https://amzn.to/3EjNcSs)
+- [Tray](https://amzn.to/4cuL8Dv)
+""")
+
+st.markdown("### Labeling")
+st.markdown("""
+- [Label Maker for Plant Tags](https://amzn.to/4cqHYRc)
+- [Labels](https://amzn.to/42v7HUj)
+""")
+
+st.markdown("### Nutrients & Treatments")
+st.markdown("""
+- [CALiMAGic](https://amzn.to/3RgpoSf)
+- [Fertilizer](https://amzn.to/4cuOvKH)
+- [Humic Acid](https://amzn.to/44lgMBo)
+- [Insecticidal Soap](https://amzn.to/42v7HUj)
+- [Kleen Kelp](https://amzn.to/42rZXlH)
+- [Mycorrhizal Fungi](https://amzn.to/3Rgkt3J)
+- [Osmocote](https://amzn.to/3El8kYi)
+- [pH Down](https://amzn.to/42v8MLR)
+- [pH Meter](https://amzn.to/4j1TjK4)
+- [pH Up](https://amzn.to/4loYjKB)
+- [Super Thrive](https://amzn.to/42C6lXY)
+- [SuperThrive ProTekt](https://amzn.to/4j1SIbi)
+""")
