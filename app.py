@@ -41,7 +41,10 @@ else:
     st.subheader("Care Tips & Tricks")
     with open("data/tips.md", "r") as f:
         st.markdown(f.read())
-# Amazon Favorites section (visible in both internal and public views)
+if check_password():
+    # internal view
+else:
+    # public view
 if check_password():
     st.subheader("Amazon Favorites")
     st.markdown("### Substrate & Amendments")
