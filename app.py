@@ -43,7 +43,6 @@ else:
         st.markdown(f.read())
 if check_password():
     # internal view
-else:
     # public view
 if check_password():
     st.subheader("Amazon Favorites")
